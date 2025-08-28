@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Local config / data
+cache/
+lyrics-downloaded/
+config.bin
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
