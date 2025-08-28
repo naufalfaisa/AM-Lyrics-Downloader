@@ -24,7 +24,7 @@ def album(data, syncpoints):
         if track.get("type") == "songs":
             track_number = attr.get('trackNumber')
             track_name = attr.get('name')
-            __file = f"{str(track_number).zfill(2)} {track_name}"
+            __file = f"{str(track_number).zfill(2)}. {track_name}"
             __info["file"] = __file
 
             lyrics_data = track.get("relationships", {}).get("lyrics", {}).get("data", [])
