@@ -24,7 +24,7 @@ python main.py [options] <urls...>
 
 ## Usage (Windows .exe)
 
-Download the .exe from the [releases](https://github.com/naufalfaisa/AM-Lyrics-Downloader) and run:
+Download the .exe from the [releases](https://github.com/naufalfaisa/AM-Lyrics-Downloader/releases) and run:
 
 ```
 main.exe [options] <urls...>
