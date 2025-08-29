@@ -22,9 +22,6 @@ def __sanitize(path):
     return sanitize(path) if path else path
 
 def arguments(args, mode="lrc"):
-    """
-    mode: "lrc" (default), "txt" (txt + lrc), "txt_only" (txt only)
-    """
     syncMsPointCount = 3 if args.sync else 2
     applemusic = AppleMusic(CACHE, CONFIG, syncMsPointCount)
 
