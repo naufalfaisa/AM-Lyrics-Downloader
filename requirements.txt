@@ -1,0 +1,6 @@
+lxml
+rich
+requests
+beautifulsoup4
+sanitize-filename
+pykakasi

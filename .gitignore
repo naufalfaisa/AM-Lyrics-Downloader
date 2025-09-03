@@ -1,0 +1,41 @@
+# Ignore everything by default
+*
+
+# Allow only these files/folders
+!.gitignore
+!README.md
+!LICENSE
+!requirements.txt
+!main.py
+!handler.py
+
+# Allow source code folders
+!api/
+!config/
+!utils/
+
+# Allow Python files inside those folders
+!api/**/*.py
+!config/**/*.py
+!utils/**/*.py
+
+# Ignore cache, binaries, and pycache inside them
+api/__pycache__/
+config/__pycache__/
+utils/__pycache__/
+*.bin
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore output/downloaded data
+lyrics-downloaded/
+cache/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
